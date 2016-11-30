@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <article>
+        <header>
+            <h1>Forms</h1>
+        </header>
+            <form action="https://formspree.io/romanromchyk@hotmail.com" method="POST">
+                <label for="surname">Прізвище:</label>
+                <input type="text" name="surname" id="surname" required>
+                <br>
+                <label for="name">Ім'я:</label>
+                <input type="text" name="name" id="name" required>
+                <br>
+                <label for="age">Вік:</label>
+                <input type="text" name="age" id="age" required>
+                <br>
+                <label>Стать:</label>
+                <input type="radio" name="gender" value="Чоловіча" checked> Чоловіча
+                <input type="radio" name="gender" value="Жіноча"> Жіноча
+                <br>
+                <label for="city">Місто:</label>
+                <input type="text" name="city" id="city" required>
+                <br>
+                <label for="activity">Діяльність:</label>
+                <input type="text" name="activity" id="activity" required>
+                <br>
+                <label>Email:
+                <input type="email" name="email" required>
+                </label>
+                <br>
+                <label for="comment">Коментар:</label>
+                <textarea name="comment" id="comment"></textarea>
+                <br>
+                <input type="Submit" value="Надіслати">
+            </form>
+        <footer>
+            <p>Published <time datetime="2016-11-30">November 30, 2016</time></p>
+        </footer>
+    </article>
+</body>
+</html>
